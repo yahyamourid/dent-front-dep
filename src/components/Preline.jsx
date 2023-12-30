@@ -10,8 +10,8 @@ const Preline = () => {
   }, []);
 
   useEffect(() => {
-    // @ts-ignore
-    HSStaticMethods.autoInit();
+    // // @ts-ignore
+    // HSStaticMethods.autoInit();
   }, [location.pathname]);
 
   return <></>;
