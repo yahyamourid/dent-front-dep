@@ -43,7 +43,7 @@ const Group = () => {
 
     const fetshPws = async () => {
         setLoading(true)
-        const rep = await axios.get(`http://localhost:${port}/api/pws/all`)
+        const rep = await axios.get(`${url}/api/pws/all`)
         setPws(rep.data)
         setLoading(false)
     }
